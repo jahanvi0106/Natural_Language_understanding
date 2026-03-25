@@ -1,0 +1,22 @@
+
+Evaluating Vanilla_RNN
+Generated names saved at: generated_names/Vanilla_RNN.txt
+Novelty Rate: 100.00%
+Diversity: 0.9300
+
+Evaluating BLSTM
+Generated names saved at: generated_names/BLSTM.txt
+Novelty Rate: 100.00%
+Diversity: 0.9280
+
+Evaluating RNN_Attention
+Generated names saved at: generated_names/RNN_Attention.txt
+Novelty Rate: 100.00%
+Diversity: 0.9320
+
+===== FINAL COMPARISON =====
+Model                Novelty (%)     Diversity 
+--------------------------------------------------
+Vanilla RNN          100.00          0.9300    
+BLSTM 2               100.00          0.9280    
+RNN_Attention        100.00          0.9320    
