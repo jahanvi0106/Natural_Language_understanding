@@ -1,0 +1,476 @@
+{
+  "Vanilla RNN": {
+    "total_generated": 1000,
+    "novelty_rate": 99.6,
+    "novel_count": 996,
+    "diversity": 95.6,
+    "unique_count": 956,
+    "structure": {
+      "avg_length": 9.226,
+      "std_length": 3.119442898980522,
+      "min_length": 3,
+      "max_length": 15,
+      "avg_vowels": 4.252,
+      "avg_consonants": 4.974,
+      "most_common_chars": [
+        [
+          "a",
+          1760
+        ],
+        [
+          "i",
+          1415
+        ],
+        [
+          "t",
+          601
+        ],
+        [
+          "S",
+          593
+        ],
+        [
+          "n",
+          558
+        ],
+        [
+          "h",
+          489
+        ],
+        [
+          "O",
+          487
+        ],
+        [
+          "l",
+          486
+        ],
+        [
+          "k",
+          401
+        ],
+        [
+          "r",
+          322
+        ]
+      ],
+      "most_common_first_letters": [
+        [
+          "S",
+          259
+        ],
+        [
+          "h",
+          246
+        ],
+        [
+          "O",
+          137
+        ],
+        [
+          "B",
+          32
+        ],
+        [
+          "N",
+          29
+        ],
+        [
+          "R",
+          21
+        ],
+        [
+          "Y",
+          20
+        ],
+        [
+          "D",
+          20
+        ],
+        [
+          "Z",
+          19
+        ],
+        [
+          "V",
+          19
+        ]
+      ]
+    },
+    "realism": {
+      "realism_rate": 81.39999999999999,
+      "realistic_count": 814,
+      "issues": {
+        "too_short": 0,
+        "too_long": 183,
+        "repeated_chars": 3,
+        "unusual_patterns": 1
+      }
+    },
+    "failure_modes": {
+      "repeated_characters": [
+        "hikalllHali",
+        "hikalllOSOh",
+        "Nikallll"
+      ],
+      "too_short": [],
+      "too_long": [
+        "SUreyakumarajat",
+        "Zanitideepeep",
+        "OSKumarAnalini",
+        "Snitikumarajit",
+        "OSHariAeshaka"
+      ],
+      "consonant_heavy": [
+        "Bhatsh"
+      ],
+      "vowel_heavy": [
+        "Oanania",
+        "Oaiti",
+        "Ouni",
+        "Itia",
+        "Oika"
+      ],
+      "unusual_combinations": []
+    },
+    "samples": [
+      "POhavika",
+      "SUreyakumarajat",
+      "hinika",
+      "Zanitideepeep",
+      "OSKumarAnalini",
+      "Sankati",
+      "dikani",
+      "SOSRajati",
+      "Snitikumarajit",
+      "Oikalsepe",
+      "Bharti",
+      "SOSMadhuvika",
+      "Swaranikum",
+      "havati",
+      "Urmarshaku",
+      "SOSRajitilil",
+      "Nikati",
+      "Nwaralit",
+      "Ytii",
+      "SOSYameshari"
+    ]
+  },
+  "Bidirectional LSTM": {
+    "total_generated": 139,
+    "novelty_rate": 100.0,
+    "novel_count": 139,
+    "diversity": 76.2589928057554,
+    "unique_count": 106,
+    "structure": {
+      "avg_length": 14.582733812949641,
+      "std_length": 1.1373279335464457,
+      "min_length": 3,
+      "max_length": 15,
+      "avg_vowels": 0.9064748201438849,
+      "avg_consonants": 13.676258992805755,
+      "most_common_chars": [
+        [
+          "S",
+          1782
+        ],
+        [
+          "O",
+          105
+        ],
+        [
+          "n",
+          24
+        ],
+        [
+          "D",
+          15
+        ],
+        [
+          "j",
+          13
+        ],
+        [
+          "a",
+          11
+        ],
+        [
+          "l",
+          9
+        ],
+        [
+          "H",
+          9
+        ],
+        [
+          "v",
+          8
+        ],
+        [
+          "c",
+          5
+        ]
+      ],
+      "most_common_first_letters": [
+        [
+          "S",
+          30
+        ],
+        [
+          "O",
+          20
+        ],
+        [
+          "D",
+          12
+        ],
+        [
+          "l",
+          9
+        ],
+        [
+          "H",
+          7
+        ],
+        [
+          "v",
+          7
+        ],
+        [
+          "j",
+          5
+        ],
+        [
+          "J",
+          4
+        ],
+        [
+          "K",
+          4
+        ],
+        [
+          "c",
+          4
+        ]
+      ]
+    },
+    "realism": {
+      "realism_rate": 0.7194244604316548,
+      "realistic_count": 1,
+      "issues": {
+        "too_short": 0,
+        "too_long": 137,
+        "repeated_chars": 138,
+        "unusual_patterns": 136
+      }
+    },
+    "failure_modes": {
+      "repeated_characters": [
+        "lSSSSSSSSSSSSSS",
+        "OSSSSSSSSSSSSSS",
+        "OSSSSSSSSSSSSS",
+        "CSSSSSSSSSSSOSS",
+        "SSSSSSSSSSSSSS"
+      ],
+      "too_short": [],
+      "too_long": [
+        "lSSSSSSSSSSSSSS",
+        "OSSSSSSSSSSSSSS",
+        "OSSSSSSSSSSSSS",
+        "CSSSSSSSSSSSOSS",
+        "SSSSSSSSSSSSSS"
+      ],
+      "consonant_heavy": [
+        "lSSSSSSSSSSSSSS",
+        "OSSSSSSSSSSSSSS",
+        "OSSSSSSSSSSSSS",
+        "CSSSSSSSSSSSOSS",
+        "SSSSSSSSSSSSSS"
+      ],
+      "vowel_heavy": [],
+      "unusual_combinations": []
+    },
+    "samples": [
+      "lSSSSSSSSSSSSSS",
+      "OSSSSSSSSSSSSSS",
+      "OSSSSSSSSSSSSS",
+      "CSSSSSSSSSSSOSS",
+      "SSSSSSSSSSSSSS",
+      "JSSSSSSSSSSSSS",
+      "SSSSSSSSSSSSSSS",
+      "SSSSSSSSSSSSaSa",
+      "lSSSSSSSSSSSSSS",
+      "jSOSSSSSSSSOSSS",
+      "SSSSSSSSSSSOSSO",
+      "SSSSSSSSSSnSSS",
+      "DSSSSSSSSSSSS",
+      "DSSSSSSSSSSSSSS",
+      "lSSSSSSSSSSSSSS",
+      "JSSSSOSSOSSOSOS",
+      "OSSSSSSSSnSOSSS",
+      "SSSSSSSSSSSSSSS",
+      "SOSSSSnSSSSSSSS",
+      "jSSSSSSSSSSSSSS"
+    ]
+  },
+  "RNN with Attention": {
+    "total_generated": 345,
+    "novelty_rate": 100.0,
+    "novel_count": 345,
+    "diversity": 99.71014492753623,
+    "unique_count": 344,
+    "structure": {
+      "avg_length": 12.640579710144927,
+      "std_length": 3.1427080928221396,
+      "min_length": 3,
+      "max_length": 15,
+      "avg_vowels": 4.7043478260869565,
+      "avg_consonants": 7.936231884057971,
+      "most_common_chars": [
+        [
+          "i",
+          625
+        ],
+        [
+          "n",
+          503
+        ],
+        [
+          "a",
+          429
+        ],
+        [
+          "s",
+          391
+        ],
+        [
+          "e",
+          240
+        ],
+        [
+          "t",
+          224
+        ],
+        [
+          "l",
+          221
+        ],
+        [
+          "h",
+          217
+        ],
+        [
+          "j",
+          213
+        ],
+        [
+          "u",
+          164
+        ]
+      ],
+      "most_common_first_letters": [
+        [
+          "h",
+          28
+        ],
+        [
+          "b",
+          28
+        ],
+        [
+          "u",
+          27
+        ],
+        [
+          "e",
+          27
+        ],
+        [
+          "a",
+          23
+        ],
+        [
+          "o",
+          21
+        ],
+        [
+          "H",
+          19
+        ],
+        [
+          "s",
+          16
+        ],
+        [
+          "U",
+          15
+        ],
+        [
+          "K",
+          12
+        ]
+      ]
+    },
+    "realism": {
+      "realism_rate": 19.420289855072465,
+      "realistic_count": 67,
+      "issues": {
+        "too_short": 0,
+        "too_long": 243,
+        "repeated_chars": 140,
+        "unusual_patterns": 97
+      }
+    },
+    "failure_modes": {
+      "repeated_characters": [
+        "yushrassshlalll",
+        "HIurauinninunnn",
+        "HHHoUI",
+        "bLossshaninan",
+        "Uussshilalallll"
+      ],
+      "too_short": [],
+      "too_long": [
+        "uwkupuusshessen",
+        "obIddIpdvyainin",
+        "yushrassshlalll",
+        "HIurauinninunnn",
+        "imanyiininann"
+      ],
+      "consonant_heavy": [
+        "KbegJttt",
+        "ghl",
+        "bKbbMDgZHHHHDH",
+        "cjCdeT",
+        "lKH"
+      ],
+      "vowel_heavy": [
+        "Sariaaniiiiniii",
+        "oUen"
+      ],
+      "unusual_combinations": []
+    },
+    "samples": [
+      "uwkupuusshessen",
+      "HUh",
+      "obIddIpdvyainin",
+      "hunanneninan",
+      "yushrassshlalll",
+      "HIurauinninunnn",
+      "HHHoUI",
+      "Amm",
+      "Igshiniinii",
+      "imanyiininann",
+      "bLossshaninan",
+      "Usshnnaninit",
+      "oZshainikakkak",
+      "rudhdeepartivta",
+      "umanijanininji",
+      "umPOSamaninini",
+      "ePdYeepanjainan",
+      "Uussshilalallll",
+      "MUhanjinjjjjujj",
+      "hIrhrieettiitad"
+    ]
+  }
+}
